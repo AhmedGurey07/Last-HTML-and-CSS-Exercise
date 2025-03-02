@@ -143,7 +143,7 @@ span {
 
 }
 
-.btn-all {
+.btn-all , .btn-sch{
     font-size: 0.9rem;
     padding: 0.9rem;
     background-color: #ed563b;
@@ -313,7 +313,7 @@ span {
     
 }
 .schedule{
-    height: 150vh;
+    height: 180vh;
     background: linear-gradient(rgb(33, 37, 41, 0.2), rgb(33, 37, 41, 0.2)),url('schedule-bg.jpg') bottom/ cover no-repeat; 
     display: flex;
     justify-content: center;
@@ -358,7 +358,7 @@ span {
 .table li {
     list-style: none;
     display: inline-block;
-    margin-top:3rem;
+    margin-top:1rem;
     color: white;
 
 }
@@ -610,7 +610,7 @@ textarea {
 
     }
 
-    .btn-all {
+    .btn-all, .btn-sch {
         font-size: 0.5rem;
         padding: 1rem 2rem;
         background-color: #ed563b;
@@ -698,4 +698,7 @@ textarea {
  td {
     padding: 5px;
   }
-}
+  .tbl{
+    margin-bottom: 2rem;
+  }
+}   
