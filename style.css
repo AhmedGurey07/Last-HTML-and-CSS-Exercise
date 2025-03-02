@@ -646,15 +646,17 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
 .main img{
     width: 100%;
 }
 .schedule{
-    height: 200vh;;
+    height: 100%;
 }
 .table-schedule table , th , td{
     width: 80%;
 }
+
 .trainers {
     width: 100%;
     display: flex;
@@ -688,5 +690,12 @@ textarea {
 .form-container{
     height: 100%;
 }
+.table-schedule{
+    width: 100%; 
+    padding: 5px; 
+  }
 
+ td {
+    padding: 5px;
+  }
 }
